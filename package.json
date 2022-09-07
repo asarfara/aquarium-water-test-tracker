@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.3.2",
+    "nuxt": "3.0.0-rc.9"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.1",
+    "@vuepic/vue-datepicker": "^3.4.7"
+  }
+}
