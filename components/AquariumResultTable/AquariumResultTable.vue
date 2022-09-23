@@ -10,7 +10,7 @@ withDefaults(defineProps<Props>(), { aquariumResults: null })
 </script>
 
 <template>
-  <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" v-if="aquariumResults">
+  <div class="bg-white shadow-md rounded px-4 sm:px-8 pt-6 pb-8 mb-4" v-if="aquariumResults">
     <h2 class="font-medium leading-tight text-4xl mt-0 mb-4">Aquarium Results</h2>
     <div class="overflow-x-auto relative">
       <table

@@ -30,7 +30,7 @@ function create() {
 </script>
 
 <template>
-    <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div class="bg-white shadow-md rounded px-4 sm:px-8 pt-6 pb-8 mb-4">
         <h2 class="font-medium leading-tight text-4xl mt-0 mb-4">Add
             aquarium result</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
