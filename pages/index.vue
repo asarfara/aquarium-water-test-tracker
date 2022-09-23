@@ -4,7 +4,7 @@ const { get: aquariumResults } = resultTracker()
 </script>
 
 <template>
-  <div class="m-5 bg-white dark:bg-gray-900">
+  <div class="sm:m-5 bg-white dark:bg-gray-900">
     <navigation :aquarium-results="aquariumResults()" />
     <section class="bg-slate-50 py-10">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
