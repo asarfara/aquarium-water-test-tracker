@@ -35,13 +35,13 @@ function create() {
             aquarium result</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="form-group mb-6">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="date">
+                <label class="block text-gray-700  font-bold mb-2" for="date">
                     Date
                 </label>
                 <Datepicker v-model="date" autoApply id="date" />
             </div>
             <div class="form-group mb-6">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="ph">
+                <label class="block text-gray-700  font-bold mb-2" for="ph">
                     PH Value
                 </label>
                 <input
@@ -51,7 +51,7 @@ function create() {
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="form-group mb-6">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="ph">
+                <label class="block text-gray-700  font-bold mb-2" for="ph">
                     GH Value
                 </label>
                 <input
@@ -59,7 +59,7 @@ function create() {
                     id="gh" type="number" placeholder="GH" v-model="gh">
             </div>
             <div class="form-group mb-6">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="kh">
+                <label class="block text-gray-700  font-bold mb-2" for="kh">
                     KH Value
                 </label>
                 <input
@@ -69,7 +69,7 @@ function create() {
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="form-group mb-6">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="ammonia">
+                <label class="block text-gray-700  font-bold mb-2" for="ammonia">
                     Ammonia
                 </label>
                 <input
@@ -77,7 +77,7 @@ function create() {
                     id="ammonia" type="number" placeholder="Ammonia" v-model="ammonia">
             </div>
             <div class="form-group mb-6">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="nitrite">
+                <label class="block text-gray-700  font-bold mb-2" for="nitrite">
                     Nitrite
                 </label>
                 <input
@@ -88,7 +88,7 @@ function create() {
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="form-group mb-6">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="nitrate">
+                <label class="block text-gray-700  font-bold mb-2" for="nitrate">
                     Nitrate
                 </label>
                 <input
@@ -96,7 +96,7 @@ function create() {
                     id="nitrate" type="number" placeholder="Nitrate" v-model="nitrate">
             </div>
             <div class="form-group mb-6">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="phosphate">
+                <label class="block text-gray-700  font-bold mb-2" for="phosphate">
                     Phosphate
                 </label>
                 <input

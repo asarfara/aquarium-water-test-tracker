@@ -14,8 +14,8 @@ withDefaults(defineProps<Props>(), { aquariumResults: null })
     <h2 class="font-medium leading-tight text-4xl mt-0 mb-4">Aquarium Results</h2>
     <div class="overflow-x-auto relative">
       <table
-          class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-blue-700 text-white">
+          class="w-full text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-gray-700 uppercase bg-blue-700 text-white">
         <tr>
           <th class="py-3 px-6">Date</th>
           <th class="py-3 px-6">PH</th>
