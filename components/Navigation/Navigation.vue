@@ -29,7 +29,7 @@ function exportFile() {
 
 <template>
   <header>
-    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <nav class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" class="flex items-center">
           <img src="/logo.png" class="mr-3 h-12 sm:h-12" alt="Aquarium Tracker Logo">
